@@ -61,7 +61,7 @@ return(
           
           <div className="flex  cursor-pointer space-x-4 items-center">
             <MdMail className=" text-[25px]"/>
-            <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=GTvVlcSKkVPxxskjRnKHLCLFZMQgZVkDJsflCSVtBwhmlgZcVjBkljKQNcfQftxRGVbLqjDGsXcQg" target="_blank" className="text-sm md:text-lg">Joytechtechnologies@gmail.com</a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=GTvVlcSKkVPxxskjRnKHLCLFZMQgZVkDJsflCSVtBwhmlgZcVjBkljKQNcfQftxRGVbLqjDGsXcQg" target="_blank" className="text-sm sm:text-[3px]">Joytechtechnologies@gmail.com</a>
           </div>
 
           <div className="flex  cursor-pointer space-x-4 items-center">
