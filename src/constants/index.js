@@ -68,7 +68,7 @@ export const feedback = [
     id: "feedback-3",
     content:
       "Listened to what we wanted, and advised accordingly. Reasonable price. Good job done, and site left tidy. Joytech Technologies helped in CCTV Instalation, Motion sensers fixtures and electric fence instalation. Would be my first choice for any future security work that we might have",
-    name: "Anthony Gitau",
+    name: "Rachael Gitau",
     title: "Client",
     img: people03,
   },
