@@ -48,7 +48,7 @@ return(
             Get in Touch
           </h2>
           <p className={`${styles.paragraph} mt-4 leading-6 tracking-wider text-dimWhite`}>
-            Try out the Best Travel consultation Services from the most trusted Agency.
+            Try out the Best IT & Security Solution Services from the most trusted Agency.
           </p>
         </div>
 
@@ -61,12 +61,12 @@ return(
           
           <div className="flex  cursor-pointer space-x-4 items-center">
             <MdMail className=" text-[25px]"/>
-            <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=GTvVlcSKkVPxxskjRnKHLCLFZMQgZVkDJsflCSVtBwhmlgZcVjBkljKQNcfQftxRGVbLqjDGsXcQg" className="text-sm md:text-lg">Joytechtechnologies@gmail.com</a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=GTvVlcSKkVPxxskjRnKHLCLFZMQgZVkDJsflCSVtBwhmlgZcVjBkljKQNcfQftxRGVbLqjDGsXcQg" target="_blank" className="text-sm md:text-lg">Joytechtechnologies@gmail.com</a>
           </div>
 
           <div className="flex  cursor-pointer space-x-4 items-center">
             <MdLocationOn className=" text-[25px] text-blue-gradient"/>
-            <span>Syokimau, Machakos</span>
+            <span>Syokimau, Rd.Katani</span>
           </div>
         </div>
 
@@ -79,7 +79,7 @@ return(
             <FiInstagram/>
           </a>
 
-          <a href="https://www.instagram.com">
+          <a href="https://www.facebook.com/joytechtechnologies/">
             <FaFacebook/>
           </a>
 
@@ -112,7 +112,7 @@ return(
             <textarea type="message" name="message" placeholder="Your Message" rows={5} className="ring-1 mt-2 ring-gray-300 w-full px-4 py-2 rounded-md outline-none focus:ring-2 focus:ring-teal-300" />
           </div>
           
-          <button type="submit" className={`py-2 px-6 self-end font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+          <button type="submit" className={`py-2 px-6 self-end font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles} border-2 border-secondary`}>
             send Message
           </button>
         </form>

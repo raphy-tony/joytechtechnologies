@@ -1,12 +1,9 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
+import { fadeIn, staggerContainer} from '../utils/motion';
 
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import { client } from '../../lib/client';
-
-
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}
@@ -25,7 +22,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const AboutUs = ({ testimonials }) =>  (
+const AboutUs = () =>  (
 
   <section id="about-us" className={layout.section}>
     <motion.div
@@ -43,7 +40,13 @@ const AboutUs = ({ testimonials }) =>  (
         About Us
       </h2>
       <div className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        {/* {testimonials.map((testimonial) =>(testimonial.title))} */}
+      Joytech Technologies is an integrated IT, Security & Travel Consultation Service providers. We are incorporated in Kenya and seek to be the preferred global IT services provider. Our heritage speaks for itself. We provide our services to various institutions. We are the leaders in provision of IT management solutions. 
+      <br />
+      We operate in Kenya and seek to set foot in other countries in the medium term. Joytech
+      Technologies collaborates and networks with other reputable organizations both locally and
+      internationally to enhance our capacity to the benefit of our clients. This has made it possible to
+      offer IT & Security solutions across the greater East African region.
+
       </div>
       </motion.div>
 
@@ -54,8 +57,6 @@ const AboutUs = ({ testimonials }) =>  (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
       </div>
-    
-
   </section>
 );
 

@@ -3,7 +3,8 @@ import styles from "../style";
 import { motion } from 'framer-motion';
 
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
-import { laptop, airplane } from "../assets";
+import { shield, airplane, laptop } from "../assets";
+import { BsShieldFillCheck } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -21,25 +22,22 @@ const Hero = () => {
           <motion.div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
             <Image src={airplane} alt="airplane" className="sm:w-[42px] sm:h-[42px] w-[32px] h-[32px]" />
             <div className={`${styles.paragraph} ml-2`}>
-              <span className="text-white">Best</span> Travel consultation Services from the most trusted Agency{" "}
+              <span className="text-white">Best</span> IT & Security Solution Services from the most trusted Agency{" "}
             </div>
           </motion.div>
 
           <motion.div className="flex flex-row justify-between items-center w-full">
             <motion.h1 className="flex-1 font-poppins font-semibold ss:text-[62px] text-[42px] text-white ss:leading-[100.8px] leading-[65px]">
-              Travel <br className="sm:block hidden" />{" "}
-              <motion.span 
-                variants={zoomIn(0.3, 1)}
-                className="text-gradient">
-                  Consultants
-              </motion.span>
-              <br className="sm:block hidden" />{" "}
-              <span className="flex-1 font-poppins font-semibold ss:text-[62px] text-[42px] text-white ss:leading-[100.8px] leading-[75px]">and</span>{" "}
+              integrated<br className="sm:block" />{" "} 
+              IT &
+              <span  variants={zoomIn(0.3, 1)} className="text-gradient"> Security </span>
+              {/* <br className="sm:block hidden" />{" "} */}
+              <span className="flex-1 font-poppins font-semibold ss:text-[62px] text-[42px] text-white ss:leading-[100.8px] leading-[75px]"> Solution</span>{" "}
             </motion.h1>
           </motion.div>
 
           <motion.h1 className="font-poppins font-semibold ss:text-[62px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] w-full tracking-wider">
-            IT Products <br className="sm:block hidden" /> Supplier.
+           Provider.<br className="sm:block hidden" />
           </motion.h1>
           
         </motion.div>

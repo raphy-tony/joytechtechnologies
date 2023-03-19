@@ -35,7 +35,7 @@ const ProductDetails = ({ product, products }) => {
           <p className="price font-bold text-white text-xl mt-[30px]"> Ksh.{price}</p>
         
           <div className="buttons">
-            <a aria-label="Order on WhatsApp" target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=759663648&text=Hello%20there...%20I%20want%20to%20make%20an%20order%20for%20a%20Product%20I%20found%20on%20your%20Joytech%20Website"className="buy-now bg-secondary rounded-md text-primary">Order on WhatsApp</a>
+            <a aria-label="Order on WhatsApp" target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=720352149&text=Hello%20there...%20I%20want%20to%20make%20an%20order%20for%20a%20Product%20I%20found%20on%20your%20Joytech%20Website"className="buy-now bg-secondary rounded-md text-primary">Order on WhatsApp</a>
           </div>
         </div>
       </div>

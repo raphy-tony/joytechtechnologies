@@ -51,24 +51,24 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamcov. oluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
-    name: "Rachael Wotima",
-    title: "Client",
+      "Jeff Hamington (K) Limited is a security and safety company. We hereby confirm that Joytech Technologgies has been supplying us with computers, printers & other related products. They also provide maintainance services on the same. Their services have been above avarage and their team has proved reliability and great professionalism.",
+    name: "Roberta Muema",
+    title: "Human Resource Manager",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    name: "Raphy Tony",
+      "This is the 3rd time I have used Joytech Technologiess to enforce my premises with electric fence. Cannot beat the quality of the fence panels too and the reasonable pricing. Great end result and quality work. I cannot recommend them enough. Thanks for the great service",
+    name: "Raphael Oyaro",
     title: "Client",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Dolor sit amet, consectetur adipiscing elit, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
-    name: "Oscar Kenn",
+      "Listened to what we wanted, and advised accordingly. Reasonable price. Good job done, and site left tidy. Joytech Technologies helped in CCTV Instalation, Motion sensers fixtures and electric fence instalation. Would be my first choice for any future security work that we might have",
+    name: "Anthony Gitau",
     title: "Client",
     img: people03,
   },
@@ -84,16 +84,11 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/joytechtechnologies/",
   },
   {
     id: "social-media-3",
     icon: twitter,
     link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
   },
 ];

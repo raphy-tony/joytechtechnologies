@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
-import Visa from "./Visa";
 import Product from "./Product";
+import Visa from "./Visa";
+import Services from "./Services";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
@@ -12,6 +13,7 @@ export {
   Navbar,
   Visa,
   Product,
+  Services,
   AboutUs,
   ContactUs,
   Footer,

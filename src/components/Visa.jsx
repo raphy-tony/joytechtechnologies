@@ -38,11 +38,10 @@ const Visa = () => (
         <motion.p
           variants={fadeIn('up', 'tween', 0.3, 1)}
           className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          We offer you a hassle-free visa application assistance and other passport services. From application procedures to legalization of your documents, we have got everything under control. With us, you can rest assured that you are in absolutely safe hands. We assist visa application to China, USA, United Kingdom, India, Dubai, Vietnam, Schengen countries and Most African countries
+          We also offer you a hassle-free visa application assistance and other passport services. From application procedures to legalization of your documents, we have got everything under control. With us, you can rest assured that you are in absolutely safe hands. We assist visa application to China, USA, United Kingdom, India, Dubai, Vietnam, Schengen countries and Most African countries
         </motion.p>
       </motion.div>
   </motion.section>
 );
 
 export default Visa;
-Visa
