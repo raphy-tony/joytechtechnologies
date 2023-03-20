@@ -36,7 +36,7 @@ export const features = [
     icon: shield,
     title: "Integrity",
     content:
-      "We are always honest and upfront about fees and regulations and we never offer services we think our travelers wouldn't love.",
+      "We are always honest and upfront about fees and regulations and we never offer services we think our clients wouldn't love.",
   },
   {
     id: "feature-3",
