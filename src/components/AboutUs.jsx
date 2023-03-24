@@ -45,7 +45,7 @@ const AboutUs = () =>  (
       We operate in Kenya and seek to set foot in other countries in the medium term. Joytech
       Technologies collaborates and networks with other reputable organizations both locally and
       internationally to enhance our capacity to the benefit of our clients. This has made it possible to
-      offer IT & Security solutions across the greater East African region..
+      offer IT & Security solutions across the greater East African region.cc.
 
       </div>
       </motion.div>
